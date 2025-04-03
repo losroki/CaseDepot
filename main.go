@@ -42,8 +42,8 @@ func main() {
     user := User{ID: 1, Name: "John Doe", Age: 30}
     fmt.Printf("User: %+v\n", user)
 
-    var ak string = "LTAI5tNjBxdDBsyMnm6b2fnD"
-    var sk string = "7MPV4uIEunxerv3aAWGs7vt9AXzRxn"
+    var ak string = "LTAI5t61tCHQSfiupuLoaKSz"
+    var sk string = "FKESP7Ffq2qufsnvBVawSn7mVHgH6Z"
 
     processor := DataProcessor{}
     result := processor.Process(ak, sk)
